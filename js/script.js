@@ -1,7 +1,7 @@
 function allocateGroups() {
     let namesInput = document.getElementById('participant-names').value.trim();
     if (namesInput === '') {
-      alert('Please enter participant names.');
+      alert('ラウンドメンバーを教えてね！');
       return;
     }
 
