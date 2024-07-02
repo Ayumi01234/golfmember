@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ゴルフ</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここから下に、ブラウザに表示したい内容を記述する ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+    <div class="container">
+      <h1>ラウンドメンバー確定アプリ</h1>
+      <textarea id="participant-names" rows="10" placeholder="ラウンドする人の名前をカンマで区切って入れてね"></textarea><br>
+      <button onclick="allocateGroups()">ラウンドメンバー発表</button>
+      <div id="group-display"></div>
+    </div>
+  
+
+  
+</body>
+
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここから上に、ブラウザに表示したい内容を記述する ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/sampleJSON.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
